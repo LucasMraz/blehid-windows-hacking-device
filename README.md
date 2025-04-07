@@ -1,24 +1,20 @@
+## Simple Micro:bit V2 blehid hacking device made for windows
+## How to install
 
-> Open this page at [https://lucasmraz.github.io/blehid-windows-hacking-device/](https://lucasmraz.github.io/blehid-windows-hacking-device/)
+* open https://makecode.microbit.org/
+* click on Import then click on Import URL
+* paste https://github.com/lucasmraz/blehid-windows-hacking-device and click import
+* in the button left click the download button and save it to your device then open file explorer and drag the file into the MICROBIT drive
 
-## Use as Extension
 
-This repository can be added as an **extension** in MakeCode.
+## How to use
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/lucasmraz/blehid-windows-hacking-device** and import
+* Open settings on the windows computer you want to hack, then navigate to the Devices tab and in the top you should see a button Add bluetooth or other device click on it, you should see you're Micro:bit it will be called "uBit [XXXXX]" the XXXXX is your micro:bit number. Once you connect to your Micro:bit you're good to go!
 
-## Edit this project
+* Button A = Opens cmd and types "You have been hacked"
 
-To edit this repository in MakeCode.
+* Button B = Sleep mode
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/lucasmraz/blehid-windows-hacking-device** and click import
+* Button A + Button B = Shut down
 
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Thats it have fun!
