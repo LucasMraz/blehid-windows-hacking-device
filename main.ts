@@ -13,8 +13,10 @@ bluetooth.onBluetoothDisconnected(function () {
 })
 input.onButtonPressed(Button.A, function () {
     keyboard.sendString("" + keyboard.modifiers(keyboard._Modifier.windows) + "r")
+    basic.pause(500)
     keyboard.sendString("cmd")
     keyboard.sendString(keyboard.keys(keyboard._Key.enter))
+    basic.pause(2000)
     keyboard.sendString("You have been hacked")
 })
 input.onButtonPressed(Button.AB, function () {
